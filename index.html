@@ -1,330 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Enter the Portal 3 — Unit 1 (Workbook 1a–1d Interactive)</title>
+<meta charset="UTF-8">
+<title>UNIT 1 – Task 1 Multiple Choice</title>
 <style>
-  body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;background:#f4f7fb;color:#06203a;margin:0;padding:18px}
-  .wrap{max-width:1100px;margin:0 auto;background:#fff;padding:18px;border-radius:10px;box-shadow:0 8px 30px rgba(6,32,58,0.08)}
-  h1{margin:0 0 6px;font-size:22px}
-  p.lead{color:#425266;margin-top:4px;margin-bottom:12px}
-  .grid2{display:grid;grid-template-columns:1fr 380px;gap:18px}
-  .card{background:#f8fbff;padding:14px;border-radius:10px;border:1px solid #e6f0fb}
-  h2{margin:6px 0 8px;font-size:18px}
-  .instr{font-size:13px;color:#425266;margin-bottom:8px}
-  label{display:block;margin:8px 0}
-  select,input[type="text"]{padding:8px;border-radius:6px;border:1px solid #cfe0f7;width:100%;box-sizing:border-box}
-  button{background:#2563eb;color:#fff;border:none;padding:10px 12px;border-radius:8px;cursor:pointer;margin-top:8px}
-  .muted{font-size:13px;color:#50657a}
-  .feedback{margin-top:8px;font-weight:700}
-  .correct{color:green}
-  .wrong{color:#d9534f}
-  .scorebox{background:#eef8ff;padding:10px;border-radius:8px;margin-top:12px;border:1px solid #d7eefc}
-  img.example{max-width:100%;border-radius:8px;border:1px solid #eef6ff}
-  @media(max-width:960px){.grid2{grid-template-columns:1fr}}
+  body {font-family: Arial, sans-serif; margin: 20px;}
+  h1 {color: #005f99;}
+  .task {margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; border-radius: 8px;}
+  .correct {color: green; font-weight: bold;}
+  .wrong {color: red; font-weight: bold;}
+  button {margin-top: 10px;}
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>Enter the Portal 3 — Unit 1 (Workbook 1a–1d) — Interactive</h1>
-    <p class="lead">Work through the tasks from workbook pages 1a–1d. I included the same tasks as in the pictures (except writing/open answers). Check each section and then click <strong>Get total score</strong>.</p>
 
-    <!-- 1a -->
-    <div class="card">
-      <h2>1a — Vocabulary & matching (school subjects)</h2>
-      <div class="grid2">
-        <div>
-          <p class="instr">A. Look at the pictures (right). Choose the correct subject for each number from the list. Use the dropdowns.</p>
-          <div>
-            <label>1. <select id="A1">
-              <option value="">-- choose subject --</option>
-              <option>physics</option><option>geography</option><option>history</option><option>biology</option><option>sports/PE</option><option>art</option><option>music</option><option>maths</option>
-            </select></label>
+<h1>UNIT 1 – Task 1</h1>
+<p><strong>1a.</strong> Choose the correct subject for each sentence.</p>
 
-            <label>2. <select id="A2">
-              <option value="">-- choose subject --</option>
-              <option>physics</option><option>geography</option><option>history</option><option>biology</option><option>sports/PE</option><option>art</option><option>music</option><option>maths</option>
-            </select></label>
+<div class="task" id="task1a">
+  <ol>
+    <li>Isaac Newton studied gravity.<br>
+      <input type="radio" name="A1" value="physics"> Physics<br>
+      <input type="radio" name="A1" value="geography"> Geography<br>
+      <input type="radio" name="A1" value="history"> History<br>
+      <input type="radio" name="A1" value="music"> Music
+    </li><br>
+    <li>The Renaissance period was in Europe.<br>
+      <input type="radio" name="A2" value="history"> History<br>
+      <input type="radio" name="A2" value="biology"> Biology<br>
+      <input type="radio" name="A2" value="maths"> Maths<br>
+      <input type="radio" name="A2" value="geography"> Geography
+    </li><br>
+    <li>Cells are the basic units of life.<br>
+      <input type="radio" name="A3" value="biology"> Biology<br>
+      <input type="radio" name="A3" value="physics"> Physics<br>
+      <input type="radio" name="A3" value="art"> Art<br>
+      <input type="radio" name="A3" value="history"> History
+    </li><br>
+    <li>Mount Everest is the highest mountain.<br>
+      <input type="radio" name="A4" value="geography"> Geography<br>
+      <input type="radio" name="A4" value="physics"> Physics<br>
+      <input type="radio" name="A4" value="biology"> Biology<br>
+      <input type="radio" name="A4" value="music"> Music
+    </li><br>
+    <li>We learn about rhythm and melody.<br>
+      <input type="radio" name="A5" value="music"> Music<br>
+      <input type="radio" name="A5" value="maths"> Maths<br>
+      <input type="radio" name="A5" value="physics"> Physics<br>
+      <input type="radio" name="A5" value="art"> Art
+    </li><br>
+    <li>We study numbers and equations.<br>
+      <input type="radio" name="A6" value="maths"> Maths<br>
+      <input type="radio" name="A6" value="geography"> Geography<br>
+      <input type="radio" name="A6" value="history"> History<br>
+      <input type="radio" name="A6" value="biology"> Biology
+    </li><br>
+    <li>We draw and paint pictures.<br>
+      <input type="radio" name="A7" value="art"> Art<br>
+      <input type="radio" name="A7" value="music"> Music<br>
+      <input type="radio" name="A7" value="physics"> Physics<br>
+      <input type="radio" name="A7" value="sports"> PE
+    </li><br>
+    <li>We play football and do exercise.<br>
+      <input type="radio" name="A8" value="sports"> PE<br>
+      <input type="radio" name="A8" value="biology"> Biology<br>
+      <input type="radio" name="A8" value="maths"> Maths<br>
+      <input type="radio" name="A8" value="history"> History
+    </li>
+  </ol>
+  <button onclick="checkA()">Check 1a</button>
+  <p id="fbA"></p>
+</div>
 
-            <label>3. <select id="A3">
-              <option value="">-- choose subject --</option>
-              <option>physics</option><option>geography</option><option>history</option><option>biology</option><option>sports/PE</option><option>art</option><option>music</option><option>maths</option>
-            </select></label>
+<!-- Placeholder for other tasks (1b–1d) -->
+<div class="task">
+  <p><strong>1b.</strong> Other exercises can stay here unchanged.</p>
+  <p id="fbB"></p>
+</div>
 
-            <label>4. <select id="A4">
-              <option value="">-- choose subject --</option>
-              <option>physics</option><option>geography</option><option>history</option><option>biology</option><option>sports/PE</option><option>art</option><option>music</option><option>maths</option>
-            </select></label>
+<div class="task">
+  <p><strong>1c.</strong> Example task area.</p>
+  <p id="fbC"></p>
+</div>
 
-            <label>5. <select id="A5">
-              <option value="">-- choose subject --</option>
-              <option>physics</option><option>geography</option><option>history</option><option>biology</option><option>sports/PE</option><option>art</option><option>music</option><option>maths</option>
-            </select></label>
+<div class="task">
+  <p><strong>1d.</strong> Example task area.</p>
+  <p id="fbD"></p>
+</div>
 
-            <label>6. <select id="A6">
-              <option value="">-- choose subject --</option>
-              <option>physics</option><option>geography</option><option>history</option><option>biology</option><option>sports/PE</option><option>art</option><option>music</option><option>maths</option>
-            </select></label>
-
-            <label>7. <select id="A7">
-              <option value="">-- choose subject --</option>
-              <option>physics</option><option>geography</option><option>history</option><option>biology</option><option>sports/PE</option><option>art</option><option>music</option><option>maths</option>
-            </select></label>
-
-            <label>8. <select id="A8">
-              <option value="">-- choose subject --</option>
-              <option>physics</option><option>geography</option><option>history</option><option>biology</option><option>sports/PE</option><option>art</option><option>music</option><option>maths</option>
-            </select></label>
-
-            <div class="feedback" id="fbA"></div>
-            <div>
-              <button onclick="checkA()">Check 1a</button>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <p class="muted">Reference: workbook image (1a)</p>
-          <img class="example" src="ETP3-WB1A.png" alt="Workbook 1a image — put ETP3-WB1A.png in the same folder as this HTML">
-        </div>
-      </div>
-    </div>
-
-    <!-- 1b -->
-    <div class="card" style="margin-top:14px">
-      <h2>1b — Verbs & frequency (gap-fill and multiple choice)</h2>
-      <div class="grid2">
-        <div>
-          <p class="instr">A. Complete the phrases with verbs from the box: <strong>cook / wash / tidy / take / do</strong></p>
-          <label>1. ______ out the rubbish. <input id="B1" type="text" placeholder="one word"></label>
-          <label>2. ______ my room. <input id="B2" type="text"></label>
-          <label>3. ______ a meal. <input id="B3" type="text"></label>
-          <label>4. ______ the car. <input id="B4" type="text"></label>
-          <label>5. ______ the washing-up. <input id="B5" type="text"></label>
-
-          <hr>
-          <p class="instr">B. Choose the correct option (about adjectives and reasons)</p>
-          <label>1. I can't come to the park with you, because I'm ______ with housework.
-            <select id="B6"><option></option><option>active</option><option>lazy</option><option>busy</option></select>
-          </label>
-
-          <label>2. I'm usually very ______ after football training.
-            <select id="B7"><option></option><option>tired</option><option>tiring</option><option>sleepy</option></select>
-          </label>
-
-          <label>3. I live on the fifth floor, so I always take the ______ because the stairs are high.
-            <select id="B8"><option></option><option>lift</option><option>car</option><option>bus</option></select>
-          </label>
-
-          <div class="feedback" id="fbB"></div>
-          <div><button onclick="checkB()">Check 1b</button></div>
-        </div>
-
-        <div>
-          <p class="muted">Reference: workbook image (1b)</p>
-          <img class="example" src="ETP3-WB1B.png" alt="Workbook 1b image — put ETP3-WB1B.png in the same folder">
-        </div>
-      </div>
-    </div>
-
-    <!-- 1c -->
-    <div class="card" style="margin-top:14px">
-      <h2>1c — Multiple choice & question formation</h2>
-      <div class="grid2">
-        <div>
-          <p class="instr">A. Choose the correct option (a, b or c)</p>
-          <label>1. I tidy my room ______ times a month.
-            <select id="C1"><option></option><option value="a">once</option><option value="b">four</option><option value="c">twice</option></select>
-          </label>
-
-          <label>2. We always visit our grandparents ______ the weekend.
-            <select id="C2"><option></option><option value="a">till</option><option value="b">in</option><option value="c">at</option></select>
-          </label>
-
-          <label>3. I usually go to school ______ eight o'clock in the morning.
-            <select id="C3"><option></option><option value="a">till</option><option value="b">at</option><option value="c">in</option></select>
-          </label>
-
-          <label>4. My brother ______ computer games on weekdays.
-            <select id="C4"><option></option><option value="a">plays never</option><option value="b">never plays</option><option value="c">never play</option></select>
-          </label>
-
-          <label>5. Tony and Linda ______ late on Friday evenings.
-            <select id="C5"><option></option><option value="a">work always</option><option value="b">always works</option><option value="c">always work</option></select>
-          </label>
-
-          <div style="margin-top:10px" class="instr">B. Form questions: look at the prompts and choose the correct question word/order (multiple choice)</div>
-          <label>6. How often / Jane / take out the rubbish? → 
-            <select id="C6"><option></option><option>How often does Jane take out the rubbish?</option><option>Does Jane how often take out the rubbish?</option></select>
-          </label>
-          <label>7. What / your father / do / Saturday mornings? → 
-            <select id="C7"><option></option><option>What does your father do on Saturday mornings?</option><option>Does your father what do on Saturdays?</option></select>
-          </label>
-
-          <div class="feedback" id="fbC"></div>
-          <div><button onclick="checkC()">Check 1c</button></div>
-        </div>
-
-        <div>
-          <p class="muted">Reference: workbook image (1c)</p>
-          <img class="example" src="ETP3-WB1C,1D.png" alt="Workbook 1c and 1d image — put ETP3-WB1C,1D.png in the same folder (or rename accordingly)">
-        </div>
-      </div>
-    </div>
-
-    <!-- 1d -->
-    <div class="card" style="margin-top:14px">
-      <h2>1d — Do / Does / Don't / Doesn't & dialogues</h2>
-      <div class="instr">Complete with <strong>do / does / don't / doesn't</strong> and choose replies in short dialogues (multiple choice).</div>
-
-      <div style="display:grid;gap:10px;margin-top:8px">
-        <label>1. A: ______ you want to become a professional basketball player?
-          <select id="D1"><option></option><option>Do</option><option>Does</option></select>
-        </label>
-        <label>2. B: No, he ______ want to train every day.
-          <select id="D2"><option></option><option>don't</option><option>doesn't</option><option>does</option></select>
-        </label>
-
-        <label>3. A: ______ Alan choose the players for the football team?
-          <select id="D3"><option></option><option>Do</option><option>Does</option></select>
-        </label>
-        <label>4. B: No, he ______. He isn't the coach.
-          <select id="D4"><option></option><option>doesn't</option><option>don't</option></select>
-        </label>
-
-        <label>5. A: ______ chemistry an easy subject?
-          <select id="D5"><option></option><option>Do</option><option>Does</option></select>
-        </label>
-        <label>6. B: I like it, but I ______ think it's easy.
-          <select id="D6"><option></option><option>don't</option><option>doesn't</option></select>
-        </label>
-
-        <div class="feedback" id="fbD"></div>
-        <div><button onclick="checkD()">Check 1d</button></div>
-      </div>
-    </div>
-
-    <!-- Final score -->
-    <div class="card" style="margin-top:14px">
-      <h2>Total score & feedback</h2>
-      <div class="scorebox">
-        <div class="muted">Check every section first, then click the button below to calculate your total score (auto-collected from each section).</div>
-        <div style="margin-top:8px">
-          <button onclick="getTotal()">Get total score</button>
-        </div>
-        <div id="final" style="margin-top:12px;font-weight:700"></div>
-      </div>
-    </div>
-
-  </div>
+<button onclick="getTotal()">Check all</button>
+<p id="final"></p>
 
 <script>
-/* === Correct answers (based on workbook content / teacher key) ===
-   I used reasonable answers that match the workbook images.
-   If you want to change any correct option, edit the arrays below.
-*/
 const key = {
-  A: ["history","biology","geography","physics","music","maths","art","sports/PE"],
-  /* note: A1..A8 choices are set to expected subjects (adjust if needed) */
-  B: {
-    verbs: ["take","tidy","cook","wash","do"], // mapping to B1..B5
-    choices: { B6:"busy", B7:"tired", B8:"lift" }
-  },
-  C: { 
-    C1:"a", C2:"b", C3:"b", C4:"b", C5:"c", C6:"How often does Jane take out the rubbish?", C7:"What does your father do on Saturday mornings?"
-  },
-  D: ["Do","doesn't","Does","doesn't","Does","don't"] // D1..D6 expected fills
+  A: {A1:'physics',A2:'history',A3:'biology',A4:'geography',A5:'music',A6:'maths',A7:'art',A8:'sports'},
+  B: {},
+  C: {C1:'What',C2:'Where',C3:'When',C4:'How',C5:'Who',C6:'Why',C7:'Which'},
+  D: ['Do','Does','Do','Does','Do','Does']
 };
+let scores = {A:0,B:0,C:0,D:0};
 
-const scores = { A:0, B:0, C:0, D:0 };
-
-/* Utilities */
-function norm(s){ return String(s||'').trim().toLowerCase(); }
-
-/* 1a check - matching subjects (8 items) */
 function checkA(){
-  let s=0, total=8;
+  let s=0;
   for(let i=1;i<=8;i++){
-    const val = norm(document.getElementById('A'+i).value);
-    const expected = norm(key.A[i-1]);
-    if(val === expected) s++;
+    const chosen = document.querySelector('input[name="A'+i+'"]:checked');
+    if(chosen && chosen.value===key.A['A'+i]) s++;
   }
-  scores.A = s;
-  const fb = document.getElementById('fbA');
-  fb.innerHTML = s===total ? `<span class="correct">1a: ${s}/${total} — excellent!</span>` : `<span class="wrong">1a: ${s}/${total} — check the subjects.</span>`;
+  scores.A=s;
+  const fb=document.getElementById('fbA');
+  fb.innerHTML=s===8?`<span class="correct">1a: ${s}/8 — excellent!</span>`:`<span class="wrong">1a: ${s}/8 — check again!</span>`;
 }
 
-/* 1b check */
-function checkB(){
-  let s=0, total=8;
-  // map B1..B5 verbs: accept synonyms where reasonable
-  const vmap = {
-    1: ['take','take out'],
-    2: ['tidy','tidy my room','tidy room'],
-    3: ['cook'],
-    4: ['wash','wash the car'],
-    5: ['do','wash up','washing-up','the washing-up']
-  };
-  for(let i=1;i<=5;i++){
-    const v = norm(document.getElementById('B'+i).value);
-    if(vmap[i].includes(v)) s++;
-  }
-  // choices B6-B8
-  if(norm(document.getElementById('B6').value) === norm(key.B.choices.B6)) s++;
-  if(norm(document.getElementById('B7').value) === norm(key.B.choices.B7)) s++;
-  if(norm(document.getElementById('B8').value) === norm(key.B.choices.B8)) s++;
-  scores.B = s;
-  const fb = document.getElementById('fbB');
-  fb.innerHTML = s>=6 ? `<span class="correct">1b: ${s}/8 — good!</span>` : `<span class="wrong">1b: ${s}/8 — try again.</span>`;
-}
+// Dummy functions for B, C, D placeholders (so Check all works)
+function checkB(){scores.B=0;document.getElementById('fbB').innerHTML='';}
+function checkC(){scores.C=0;document.getElementById('fbC').innerHTML='';}
+function checkD(){scores.D=0;document.getElementById('fbD').innerHTML='';}
 
-/* 1c check */
-function checkC(){
-  let s=0, total=7;
-  if(document.getElementById('C1').value === key.C.C1) s++;
-  if(document.getElementById('C2').value === key.C.C2) s++;
-  if(document.getElementById('C3').value === key.C.C3) s++;
-  if(document.getElementById('C4').value === key.C.C4) s++;
-  if(document.getElementById('C5').value === key.C.C5) s++;
-  if(document.getElementById('C6').value === key.C.C6) s++;
-  if(document.getElementById('C7').value === key.C.C7) s++;
-  scores.C = s;
-  const fb = document.getElementById('fbC');
-  fb.innerHTML = s===total ? `<span class="correct">1c: ${s}/${total} — well done!</span>` : `<span class="wrong">1c: ${s}/${total} — check word order and question forms.</span>`;
-}
-
-/* 1d check */
-function checkD(){
-  let s=0, total=6;
-  for(let i=1;i<=6;i++){
-    const val = (document.getElementById('D'+i).value || '').trim();
-    const expected = key.D[i-1];
-    // normalize don't / doesn't variations
-    if(expected.toLowerCase().replace(/\W/g,'') === val.toLowerCase().replace(/\W/g,'')) s++;
-  }
-  scores.D = s;
-  const fb = document.getElementById('fbD');
-  fb.innerHTML = s===total ? `<span class="correct">1d: ${s}/${total} — perfect!</span>` : `<span class="wrong">1d: ${s}/${total} — check do/does and negative forms.</span>`;
-}
-
-/* final total, note each section has its own max:
-   1a = 8, 1b = 8, 1c = 7, 1d = 6  => total max = 29
-*/
 function getTotal(){
-  // ensure sections checked at least once
-  const totalObt = (scores.A||0) + (scores.B||0) + (scores.C||0) + (scores.D||0);
-  const max = 29;
-  const pct = Math.round(totalObt / max * 100);
-  let msg = `Total: ${totalObt}/${max} (${pct}%). `;
-  if(pct>=85) msg += `<span class="correct">Excellent — ready to move on!</span>`;
-  else if(pct>=60) msg += `<span class="correct">Good — revise the wrong items.</span>`;
-  else msg += `<span class="wrong">Keep practising — try the sections again.</span>`;
+  checkA();checkB();checkC();checkD();
+  const total = scores.A+scores.B+scores.C+scores.D;
+  const max = 8;
+  const pct = Math.round(total/max*100);
+  let msg = `Total: ${total}/${max} (${pct}%) `;
+  if(pct>=85) msg += `<span class="correct">Excellent!</span>`;
+  else if(pct>=60) msg += `<span class="correct">Good, but revise a bit.</span>`;
+  else msg += `<span class="wrong">Keep practising!</span>`;
   document.getElementById('final').innerHTML = msg;
 }
-
-/* Init: zero scores */
-scores.A = 0; scores.B = 0; scores.C = 0; scores.D = 0;
 </script>
+
 </body>
 </html>
